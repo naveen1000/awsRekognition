@@ -4,7 +4,7 @@ if __name__ == "__main__":
 
     
     bucket='naveen-imgpro'
-    photo='text.png'
+    photo='car1.jpg'
     s3 = boto3.client('s3')
     s3.upload_file(photo,bucket,photo)
 
